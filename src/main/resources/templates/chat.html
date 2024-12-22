@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with AI</title>
+    <link rel="stylesheet" href="/static/css/chat-styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Chat with AI</h1>
+    <div class="chat-wrapper">
+        <form id="chatForm">
+            <input type="text" id="message" placeholder="메시지를 입력하세요">
+            <button type="submit" id="submitButton">전송</button>
+        </form>
+        <div id="loading">처리 중...</div>
+        <div id="response"></div>
+    </div>
+</div>
+<script src="/static/js/chat-script.js"></script>
+</body>
+</html>
